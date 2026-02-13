@@ -18,14 +18,14 @@ The framework automates the end-to-end purchase flow on the SauceDemo website.
 
  📂 Project Structure
 src
--test
--java
--com.api.seliniium
--LoginTest.java
--LoginPage.java
--Inventory.java
--CheckOutPage.java
--Finishh.java
+->test
+->java
+->com.api.seliniium
+->LoginTest.java
+->LoginPage.java
+->Inventory.java
+->CheckOutPage.java
+->Finishh.java
 pom.xml
 
 
