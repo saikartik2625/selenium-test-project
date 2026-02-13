@@ -16,7 +16,7 @@ The framework automates the end-to-end purchase flow on the SauceDemo website.
 
 ---
 
-## 📂 Project Structure
+ 📂 Project Structure
 src
 └── test
 └── java
