@@ -18,14 +18,14 @@ The framework automates the end-to-end purchase flow on the SauceDemo website.
 
  📂 Project Structure
 src
-└── test
-└── java
-└── com.api.seliniium
-├── LoginTest.java
-├── LoginPage.java
-├── Inventory.java
-├── CheckOutPage.java
-└── Finishh.java
+-test
+-java
+-com.api.seliniium
+-LoginTest.java
+-LoginPage.java
+-Inventory.java
+-CheckOutPage.java
+-Finishh.java
 pom.xml
 
 
@@ -54,41 +54,4 @@ The automation performs the following steps:
 ### Option 1: Using Eclipse
 - Right-click `LoginTest.java`
 - Run As → JUnit Test
-
-### Option 2: Using Maven
-
-```bash
-mvn clean test
-📌 Framework Design Pattern
-
-This framework follows the Page Object Model (POM) design pattern.
-
-Each page of the application has a separate class containing:
-
-WebElements
-
-Page methods
-
-Business logic
-
-This improves:
-
-Code reusability
-
-Maintainability
-
-Readability
-Key Features
-
-Clean separation of test logic and page logic
-
-Reusable page classes
-
-Scalable structure for adding more test cases
-
-Maven dependency management
-
-📎 Author
-
-Kartik
 
