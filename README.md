@@ -15,21 +15,18 @@ The framework automates the end-to-end purchase flow on the SauceDemo website.
 - ChromeDriver
 
 ---
-
- 📂 Project Structure
+```
 src
-->test
-->java
-->com.api.seliniium
-->LoginTest.java
-->LoginPage.java
-->Inventory.java
-->CheckOutPage.java
-->Finishh.java
+└── test
+└── java
+└── com.api.seliniium
+├── LoginTest.java
+├── LoginPage.java
+├── Inventory.java
+├── CheckOutPage.java
+└── Finishh.java
 pom.xml
-
-
-
+```
 ---
 
 ## ✅ Test Scenario Automated
